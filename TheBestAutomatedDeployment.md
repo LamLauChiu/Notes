@@ -81,6 +81,9 @@ https://www.baeldung.com/spring-cloud-configuration
 spring cloud+docker+jenkins ( gardle )
 https://my.oschina.net/weidedong/blog/1824736
 
+配置中心
+http://book.itmuch.com/2%20Spring%20Cloud/2.5%20%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83.html
+
 ***
 Microservices Continuous Delivery with Docker and Jenkins
 https://piotrminkowski.wordpress.com/2017/03/20/microservices-continuous-delivery-with-docker-and-jenkins/
