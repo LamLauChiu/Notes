@@ -37,8 +37,10 @@ Dockerfile
 - contains all the commanda neccessary to build the image and run your application
 ![alt text](https://cdn-images-1.medium.com/max/2600/1*asSDJQpw1EQPFN-BqQSU0Q.png)
 
-
 Conatiner orchestration - Deploying and scaling conatiners
+
+How to create a docker image from a container
+https://www.scalyr.com/blog/create-docker-image/
 
 Kubernetes (K8S)
 is an open-source system for automating deployment, scaling and management of conatineried applications
@@ -48,6 +50,53 @@ Node - Kubelet, communicates with master, runs pods
 Pod - Run 1+ containers, Exists on a node
 Service - Handles requests, usually a load balancer
 Deployment - Defines desired state, Kubernetes handles the rest
+
+
+Jenkins:
+
+Tutorial
+https://www.youtube.com/watch?v=7q2YuDFhXrE&list=PL6tu16kXT9PqIe2b0BGul-cXbmwGt7Ihw&index=19
+
+[ DevOps ] Jenkins 基本設定及 Pipeline 腳本教學
+https://oranwind.org/-devops-jenkins-yu-centos-ubuntu-an-zhuang-jiao-xue/
+
+Creating your first Pipeline
+https://jenkins.io/doc/pipeline/tour/hello-world/
+
+Build a Java app with Maven
+https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/#prerequisites
+
+Bash Shell: Check File Exists or Not
+https://www.cyberciti.biz/faq/unix-linux-test-existence-of-file-in-bash/
+
+Get Docker CE for Ubuntu
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+Dockerizing a Spring Boot Application
+https://www.baeldung.com/dockerizing-spring-boot-application
+
+Quick Intro to Spring Cloud Configuration
+https://www.baeldung.com/spring-cloud-configuration
+
+spring cloud+docker+jenkins ( gardle )
+https://my.oschina.net/weidedong/blog/1824736
+
+***
+Microservices Continuous Delivery with Docker and Jenkins
+https://piotrminkowski.wordpress.com/2017/03/20/microservices-continuous-delivery-with-docker-and-jenkins/
+
+Automated Deployment – Jenkins – Docker – Spring Boot
+https://denisdbell.wordpress.com/2017/08/26/automated-deployment-jenkins-docker-spring-boot/
+
+Spring Cloud DevOps之旅（二）Jenkins+Git+Docker搭建单机测试环境
+https://www.jianshu.com/p/fa85be6164e4
+
+Microservices and DevOps Using Java, Spring Boot, Git Flow, Jenkins, and Docker
+https://dzone.com/articles/microservices-and-devops-1
+
+Achieve CI/CD with Jenkins X, Kubernetes, and Spring Boot
+https://developer.okta.com/blog/2018/07/11/ci-cd-spring-boot-jenkins-x-kubernetes
+https://dzone.com/articles/achieve-cicd-with-jenkins-x-kubernetes-and-spring
 
 Topic: What is the "The best automated deployment Tool/ Procedure"
 Continuous Integration & Continuous Delivery (持續性整合與發佈)
@@ -59,7 +108,6 @@ https://www.amarinfotech.com/automated-deployment-tools.html
 
 Solutions
 Continuous Deployment to Kubernetes Engine using Jenkins
-
 
 Introduction to Microservices, Docker, and Kubernetes
 https://www.youtube.com/watch?v=1xo-0gCVhTU
