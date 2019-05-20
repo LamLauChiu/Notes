@@ -98,6 +98,9 @@ Achieve CI/CD with Jenkins X, Kubernetes, and Spring Boot
 https://developer.okta.com/blog/2018/07/11/ci-cd-spring-boot-jenkins-x-kubernetes
 https://dzone.com/articles/achieve-cicd-with-jenkins-x-kubernetes-and-spring
 
+Continuous Integration with Jenkins and Docker
+https://code-maze.com/ci-jenkins-docker/
+
 Topic: What is the "The best automated deployment Tool/ Procedure"
 Continuous Integration & Continuous Delivery (持續性整合與發佈)
 
