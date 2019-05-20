@@ -1,6 +1,13 @@
-# This is the remarka about all the things during my study.
+# This is the remark about all the things during my study.
 
 Pre-view:
+
+spring cloud+docker+jenkins 自动化构建(4)
+https://my.oschina.net/weidedong/blog/1825485
+
+Introduction to Microservices, Docker, and Kubernetes
+https://www.youtube.com/watch?v=1xo-0gCVhTU
+
 
 Legacy application
 https://searchitoperations.techtarget.com/definition/legacy-application
@@ -91,6 +98,7 @@ https://my.oschina.net/weidedong/blog/1824736
 http://book.itmuch.com/2%20Spring%20Cloud/2.5%20%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83.html
 
 ***
+
 Microservices Continuous Delivery with Docker and Jenkins
 https://piotrminkowski.wordpress.com/2017/03/20/microservices-continuous-delivery-with-docker-and-jenkins/
 
@@ -123,10 +131,6 @@ https://blog.51cto.com/wzlinux/2321293
 
 Solutions
 Continuous Deployment to Kubernetes Engine using Jenkins
-
-Introduction to Microservices, Docker, and Kubernetes
-https://www.youtube.com/watch?v=1xo-0gCVhTU
-
 
 
 https://ithelp.ithome.com.tw/articles/10195244
