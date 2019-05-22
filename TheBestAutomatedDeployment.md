@@ -77,6 +77,7 @@ Kubernetes在夯什麼—建置一座K8s
 https://www.inwinstack.com/2018/08/02/set-k8s/
 
 Jenkins:
+https://ithelp.ithome.com.tw/users/20111990/ironman/1864?page=3
 
 Tutorial
 https://www.youtube.com/watch?v=7q2YuDFhXrE&list=PL6tu16kXT9PqIe2b0BGul-cXbmwGt7Ihw&index=19
@@ -193,5 +194,40 @@ Error:
 
 https://codeday.me/bug/20190126/582805.html
 
+***
+
+https://www.cnblogs.com/edisonchou/p/springboot_on_docker_foundation.html
+
+Quick Intro to Spring Cloud Configuration
+https://www.baeldung.com/spring-cloud-configuration
+
+https://github.com/eugenp/tutorials/tree/master/spring-cloud/spring-cloud-config/docker
+Dockerizing a Spring Boot Application
+https://www.baeldung.com/dockerizing-spring-boot-application
+HOW TO CREATE A DOCKER IMAGE FROM A CONTAINER
+https://www.scalyr.com/blog/create-docker-image/
+
+docker compose
+https://www.jianshu.com/p/97b075ee603c
+https://github.com/BarathArivazhagan/spring-cloud-sidecar-polygot/blob/master/docker-compose.yml
+https://www.yunforum.net/group-topic-id-2574.html
+https://ithelp.ithome.com.tw/articles/10197490
+http://www.itmuch.com/docker-compose-eureka-ha/
+https://cloud.tencent.com/developer/article/1107541
+https://www.cnblogs.com/edisonchou/p/springboot_on_docker_foundation.html
+
+
+Automated Deployment – Jenkins – Docker – Spring Boot
+https://denisdbell.wordpress.com/2017/08/26/automated-deployment-jenkins-docker-spring-boot/
+Microservices and DevOps Using Java, Spring Boot, Git Flow, Jenkins, and Docker
+https://dzone.com/articles/microservices-and-devops-1
+Microservices Continuous Delivery with Docker and Jenkins
+https://piotrminkowski.wordpress.com/2017/03/20/microservices-continuous-delivery-with-docker-and-jenkins/
+Build a Java app with Maven
+https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/#prerequisites
+https://github.com/twtrubiks/docker-jenkins-django-tutorial
+
+Spring Cloud DevOps之旅（二）Jenkins+Git+Docker搭建单机测试环境
+https://www.jianshu.com/p/fa85be6164e4
 
 
