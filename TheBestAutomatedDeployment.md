@@ -59,6 +59,18 @@ Pod - Run 1+ containers, Exists on a node
 Service - Handles requests, usually a load balancer
 Deployment - Defines desired state, Kubernetes handles the rest
 
+K8S：
+
+可以支援多種 Container 工具，像是 Docker、Rocket
+Kubernetes 有提供自已的 Restful API
+如果需要使用 Docker-Compose 需要先轉換
+
+Swarm：
+
+只支援 Docker 的 Container
+直接使用 Docker Restful API
+直接就可以使用 Docker-Compose
+
 ***
 
 Kubernetes在夯什麼—建置一座K8s
