@@ -1,5 +1,7 @@
 # This is the remark about all the things during my study.
 
+Topic: What is the "The best automated deployment Tool/ Procedure"
+
 Pre-view:
 
 spring cloud+docker+jenkins 自动化构建(4)
@@ -8,10 +10,8 @@ https://my.oschina.net/weidedong/blog/1825485
 Introduction to Microservices, Docker, and Kubernetes
 https://www.youtube.com/watch?v=1xo-0gCVhTU
 
-
 Legacy application
 https://searchitoperations.techtarget.com/definition/legacy-application
-
 
 https://www.youtube.com/watch?v=1xo-0gCVhTU
 
@@ -59,6 +59,8 @@ Pod - Run 1+ containers, Exists on a node
 Service - Handles requests, usually a load balancer
 Deployment - Defines desired state, Kubernetes handles the rest
 
+***
+
 Kubernetes在夯什麼—建置一座K8s
 https://www.inwinstack.com/2018/08/02/set-k8s/
 
@@ -97,7 +99,15 @@ https://my.oschina.net/weidedong/blog/1824736
 配置中心
 http://book.itmuch.com/2%20Spring%20Cloud/2.5%20%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83.html
 
+Docker:
+用30天來介紹和使用 Docker系列 
+https://www.amarinfotech.com/automated-deployment-tools.html
+
+
+
 ***
+
+concept: 
 
 Microservices Continuous Delivery with Docker and Jenkins
 https://piotrminkowski.wordpress.com/2017/03/20/microservices-continuous-delivery-with-docker-and-jenkins/
@@ -118,22 +128,14 @@ https://dzone.com/articles/achieve-cicd-with-jenkins-x-kubernetes-and-spring
 Continuous Integration with Jenkins and Docker
 https://code-maze.com/ci-jenkins-docker/
 
-Topic: What is the "The best automated deployment Tool/ Procedure"
 Continuous Integration & Continuous Delivery (持續性整合與發佈)
-
 https://blog.91app.com/continuous-integration-delivery/
 
- 用30天來介紹和使用 Docker系列 
-https://www.amarinfotech.com/automated-deployment-tools.html
 
 K8s 原理架构介绍(一)
 https://blog.51cto.com/wzlinux/2321293
 
-Solutions
-Continuous Deployment to Kubernetes Engine using Jenkins
-
-
-https://ithelp.ithome.com.tw/articles/10195244
+***
 
 concept:
 
@@ -155,6 +157,12 @@ https://blog.alantsai.net/posts/2015/09/use-ssh-in-windows-for-github
 如何用config管理多個網站的ssh key和如何不用每一組輸入ssh的Pass Phrase
 https://blog.alantsai.net/posts/2016/03/ssh-config-ssh-agent-passphrase-management
 
+***
+Solutions:
+
+Continuous Deployment to Kubernetes Engine using Jenkins
+https://ithelp.ithome.com.tw/articles/10195244
+
 CI/CD with Jenkins and Docker ( Gradle )
 https://medium.com/@khandelwal12nidhi/ci-cd-with-jenkins-and-ansible-e9163d4a6e82
 
@@ -166,3 +174,12 @@ https://circleci.com/docs/2.0/local-cli/
 
 Demo: CI/CD with GitLab
 https://www.youtube.com/watch?v=1iXFbchozdY
+
+***
+
+Error:
+
+https://codeday.me/bug/20190126/582805.html
+
+
+
