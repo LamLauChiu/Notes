@@ -188,6 +188,10 @@ https://circleci.com/docs/2.0/local-cli/
 Demo: CI/CD with GitLab
 https://www.youtube.com/watch?v=1iXFbchozdY
 
+Jenkins与Docker的自动化CI/CD实战
+https://blog.51cto.com/lizhenliang/2159817
+
+
 ***
 
 Error:
@@ -229,5 +233,23 @@ https://github.com/twtrubiks/docker-jenkins-django-tutorial
 
 Spring Cloud DevOps之旅（二）Jenkins+Git+Docker搭建单机测试环境
 https://www.jianshu.com/p/fa85be6164e4
+
+***
+Pipeline:
+https://jenkins.io/doc/pipeline/steps/workflow-basic-steps/
+
+Parallel
+https://jenkins.io/doc/book/pipeline/syntax/#parallel
+https://jenkins.io/blog/2017/09/25/declarative-1/
+https://medium.com/ichef/speed-jenkins-pipeline-parallel-docker-build-daecea47d360
+https://blog.johnwu.cc/article/jenkins-pipeline-job-parallel.html
+https://www.cloudbees.com/blog/parallelism-and-distributed-builds-jenkins
+https://comsystoreply.de/blog-post/parallel-builds-with-jenkins-pipeline
+
+Unstash Different Dir 
+Synopsi - A simple demonstration of how to unstash to a different directory than the root directory, so that you can make sure not to overwrite directories or files, etc.
+https://jenkins.io/doc/pipeline/examples/#unstash-different-dir
+
+
 
 
