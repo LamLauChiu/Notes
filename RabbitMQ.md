@@ -16,3 +16,7 @@ https://medium.com/@fcamel/%E9%9D%9E%E5%90%8C%E6%AD%A5%E7%A8%8B%E5%BC%8F%E8%A8%A
 
 How to install Latest RabbitMQ Server on Ubuntu 18.04 LTS
 https://computingforgeeks.com/how-to-install-latest-rabbitmq-server-on-ubuntu-18-04-lts/
+
+
+https://www.baeldung.com/rabbitmq
+https://www.baeldung.com/spring-amqp-reactive
