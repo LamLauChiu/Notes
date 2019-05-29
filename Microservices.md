@@ -1,6 +1,17 @@
 # 
 
+
+![alt text](https://developers.redhat.com/blog/wp-content/uploads/2016/12/365c0d94-eefa-11e5-90ad-9d74804ca412-21.png)
+![alt text](https://developers.redhat.com/blog/wp-content/uploads/2016/12/screen-shot-2016-12-06-at-10-32-19.png)
+https://developers.redhat.com/blog/2016/12/09/spring-cloud-for-microservices-compared-to-kubernetes/
+
+![alt text](https://piotrminkowski.files.wordpress.com/2017/05/pvdi-microservices-architecture1.png?w=840)
+
+RabbitMQ
+
 Concept
+
+https://cdn-images-1.medium.com/max/1600/1*pwheOTtJylSwXNctKif2Xw.png
 
 淺談I/O Model
 -blocking
@@ -46,9 +57,21 @@ io.reactivex.rxjava2:rxjava:
   <version>2.2.8</version>
 </dependency>
 
+spring boot admin:
+
+http://www.ityouknow.com/springboot/2018/02/11/spring-boot-admin.html
 
 https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-intro-to-microservices-part-1-c0d24cd422c3
+RxJava学习指南
+1. :https://www.zybuluo.com/cxm-2016/note/440764
+9. :https://www.zybuluo.com/cxm-2016/note/574566
 
 
+https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#fromCallable-java.util.concurrent.Callable-
+
+https://projechttps://www.zybuluo.com/cxm-2016/note/574566treactor.io/docs/core/release/reference/index.html#_asynchronicity_to_the_rescue
+https://www.ibm.com/developerworks/cn/java/j-cn-with-reactor-response-encode/index.html
+https://projectreactor.io/docs/core/release/api/
+https://projectreactor.io/docs/rabbitmq/release/api/
 
 
