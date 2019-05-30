@@ -102,3 +102,8 @@ https://nickjanetakis.com/blog/docker-tip-27-setting-a-password-on-redis-without
 
 Axon
 http://edisonxu.com/categories/Java/%E6%A1%86%E6%9E%B6/CQRS/Axon/
+
+Spring Cloud 分布式链路跟踪 Sleuth + Zipkin + Elasticsearch【Finchley 版】
+https://segmentfault.com/a/1190000015697673
+
+https://blog.johnwu.cc/article/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-centos-red-hat.html
