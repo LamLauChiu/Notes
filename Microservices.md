@@ -33,6 +33,15 @@ https://www.baeldung.com/spring-remoting-amqp
 https://www.baeldung.com/rabbitmq
 https://www.baeldung.com/spring-amqp-reactive
 
+Concept:RabbitMQ學習筆記
+https://read01.com/d3k6.html#.XOZj2dMzbxo
+
+Spring Boot RabbitMQ实践
+https://my.oschina.net/u/3748347?tab=newest&catalogId=5740269
+https://www.jianshu.com/p/86b8171e4be4
+RabbitMQ学习笔记九：RabbitMQ实现RPC（远程过程调用）
+https://blog.csdn.net/chenxyt/article/details/79280168
+
 Spring remoting AMQP
 https://molchanoff.me/software-development/spring-remoting-amqp/
 
@@ -66,12 +75,30 @@ RxJava学习指南
 1. :https://www.zybuluo.com/cxm-2016/note/440764
 9. :https://www.zybuluo.com/cxm-2016/note/574566
 
-
+Reactor : Mono & Flux & rabbitMQ
 https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#fromCallable-java.util.concurrent.Callable-
+
+Reactor RabbitMQ Reference Guide
+https://projectreactor.io/docs/rabbitmq/snapshot/reference/
 
 https://projechttps://www.zybuluo.com/cxm-2016/note/574566treactor.io/docs/core/release/reference/index.html#_asynchronicity_to_the_rescue
 https://www.ibm.com/developerworks/cn/java/j-cn-with-reactor-response-encode/index.html
 https://projectreactor.io/docs/core/release/api/
 https://projectreactor.io/docs/rabbitmq/release/api/
 
+Net core microservices communication using RabbitMQ, Dapper & Docker
+https://medium.com/@l.tambarin/net-core-microservices-communication-using-rabbitmq-dapper-docker-40353e40df1b
+Asynchronous Microservices with RabbitMQ and Node.js
+https://www.manifold.co/blog/asynchronous-microservices-with-rabbitmq-and-node-js
+Using RabbitMQ for Microservices Communication on Docker
+https://codeburst.io/using-rabbitmq-for-microservices-communication-on-docker-a43840401819
 
+Hystrix
+https://www.cnblogs.com/ityouknow/p/6868833.html
+
+redis
+https://segmentfault.com/a/1190000014091287
+https://nickjanetakis.com/blog/docker-tip-27-setting-a-password-on-redis-without-a-custom-config
+
+Axon
+http://edisonxu.com/categories/Java/%E6%A1%86%E6%9E%B6/CQRS/Axon/
