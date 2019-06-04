@@ -5,3 +5,5 @@
 
 
 https://www.kubernetes.org.cn/doc-7
+
+https://fufu.gitbook.io/kk8s/startup-kubernetes-via-minikube
