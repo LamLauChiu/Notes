@@ -13,3 +13,5 @@ https://fufu.gitbook.io/kk8s/startup-kubernetes-via-minikube
 https://jimmysong.io/kubernetes-handbook/concepts/ingress.html
 
 
+
+https://www.youtube.com/watch?v=UWg3ORRRF60
