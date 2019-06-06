@@ -23,3 +23,16 @@ https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbi
 
 
 https://www.edureka.co/blog/install-kubernetes-on-ubuntu
+
+https://jimmysong.io/kubernetes-handbook/concepts/ingress.html
+
+https://fufu.gitbook.io/kk8s/installing-crio-kubeadm-init
+http://www.g33knotes.org/2016/09/using-minikube-for-kubernetes.html
+
+https://jimmysong.io/kubernetes-handbook/guide/deploy-applications-in-kubernetes.html
+
+https://blog.techbridge.cc/2018/12/01/kubernetes101-introduction-tutorial/
+
+https://ithelp.ithome.com.tw/articles/10195786
+
+https://yeasy.gitbooks.io/docker_practice/repository/registry.html
