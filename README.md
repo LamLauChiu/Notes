@@ -7,7 +7,7 @@
 https://www.kubernetes.org.cn/doc-7
 
 https://fufu.gitbook.io/kk8s/startup-kubernetes-via-minikube
-
+https://ithelp.ithome.com.tw/articles/10204915
 
 
 https://jimmysong.io/kubernetes-handbook/concepts/ingress.html
