@@ -20,3 +20,6 @@ https://www.youtube.com/watch?v=UWg3ORRRF60
 Benchmark results of Kubernetes network plugins (CNI) over 10Gbit/s network
 https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-36475925a560
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*nghpKHLhuUt5c8LYrWpKcQ.png)
+
+
+https://www.edureka.co/blog/install-kubernetes-on-ubuntu
