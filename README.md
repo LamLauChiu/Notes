@@ -1,5 +1,7 @@
 # Notes
 
+https://www.iterm2.com/
+
 https://zhuanlan.zhihu.com/HiBlock
 
 https://zhuanlan.zhihu.com/p/41605393
