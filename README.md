@@ -47,6 +47,21 @@ git: 2.9.x or higher <br/>
 Python: 2.7.x <br/>
 A code editor of your choice, we recommend VSCode.
 
+
+Hyperledger Composer simplifies application development on top of the Hyperledger Fabric blockchain infrastructure.
+
+If you are interested in the blockchain infrastructure, start with the Fabric tutorials.
+https://hyperledger-fabric.readthedocs.io/en/latest/build_network.html#
+
+If you are interested in blockchain applications, start with the Composer tutorials.
+https://hyperledger.github.io/composer/latest/tutorials/tutorials.html
+
+The Fabric tutorials also include samples of low level chaincode development (in golang). Composer is a higher level application development framework.
+
+I'd suggest trying both to get an overall view of the capabilities.
+
+As a Java developer, you will also want to check out the Fabric Java SDK for building Java client applications that interact with the blockchain. Java chaincode is also available as of Fabric v1.3.
+
 Problem: <br/>
 Error while running npm install -g composer-cli
 
