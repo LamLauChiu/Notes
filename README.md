@@ -24,6 +24,8 @@ https://www.youtube.com/watch?v=kMktpqo0FH8
 
 https://medium.com/swlh/hyperledger-chapter-1-foundation-7ad5bd94d452
 
+https://www.youtube.com/watch?v=c0tIdl2ePJ0
+
 Hyperledger Frameworks <br/>
 1. Iroha- A simple and easy to incorporate into infrastructure projects requiring distributed ledger technology <br/>
 2. Sawtooth- A modular blockchain framework that implements the PoET consensus algorithm <br/>
