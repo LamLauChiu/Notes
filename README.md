@@ -1,5 +1,11 @@
 # Notes
 
+
+![image](https://blockgeeks.com/wp-content/uploads/2017/05/hyperledgerfabricmodel.jpg)
+
+![image](https://i.stack.imgur.com/zuGTC.png)
+
+
 https://www.iterm2.com/
 
 https://zhuanlan.zhihu.com/HiBlock
