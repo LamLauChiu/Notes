@@ -1,10 +1,16 @@
 # Notes
 
+https://hyperledger-fabric.readthedocs.io/en/release-1.4/identity/identity.html
+
+
+
 
 ![image](https://blockgeeks.com/wp-content/uploads/2017/05/hyperledgerfabricmodel.jpg)
 
 ![image](https://i.stack.imgur.com/zuGTC.png)
 
+![image](https://pic1.xuehuaimg.com/proxy/csdn/https://hyperledger.github.io/composer/latest/assets/img/Composer-Diagram.svg)
+https://www.twblogs.net/a/5bafd7712b7177781a0f621e
 
 https://www.iterm2.com/
 
