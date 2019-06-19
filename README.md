@@ -89,3 +89,9 @@ sudo xcode-select --switch /Library/Developer/CommandLineTools # Enable command 
 
 Solution: <br/>
 https://github.com/nodejs/node-gyp/issues/569
+
+2. Using DBngin
+https://tableplus.io/blog/2018/11/how-to-download-mysql-mac.html
+https://dbngin.com/
+
+
