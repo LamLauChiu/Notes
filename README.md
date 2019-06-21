@@ -13,6 +13,20 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.4/identity/identity.html
 ![image](https://pic1.xuehuaimg.com/proxy/csdn/https://hyperledger.github.io/composer/latest/assets/img/Composer-Diagram.svg)
 https://www.twblogs.net/a/5bafd7712b7177781a0f621e
 
+![image](https://i.stack.imgur.com/2llU5.jpg)
+
+There are two ways to write chaincode in Hyperledger Fabric,
+
+1) Using GoLang
+
+2) Using NodeJS
+
+In order to connect Hyperledger Fabric and Invoke chaincode transaction. You will require SDK. Based on your application technology stack, You can either use Fabric NodeJS SDK, Fabric Java SDK and Fabric Python SDK.
+
+On other hand; Hyperledger composer is different way of writing chaincode, which is guide of framework which can help you to accelerate your chaincode development. If you have developed business network using composer, then you can either use "composer rest server" or "composer-admin" and "composer-client" node module. You dont need to use any SDK in order to interact with Business network deployed on hyperledger fabric. Kindly refer following diagram for more clarity.
+
+
+
 https://www.iterm2.com/
 
 https://zhuanlan.zhihu.com/HiBlock
@@ -93,5 +107,8 @@ https://github.com/nodejs/node-gyp/issues/569
 2. Using DBngin
 https://tableplus.io/blog/2018/11/how-to-download-mysql-mac.html
 https://dbngin.com/
+
+
+https://ittomato.github.io/2018/02/04/Hyperledger%20Fabri%E6%95%99%E7%A8%8B-%E5%AE%89%E8%A3%85blockchain%20explorer4/
 
 
