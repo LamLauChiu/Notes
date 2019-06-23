@@ -1,5 +1,7 @@
 # Notes
 
+https://www.jianshu.com/p/eac679b2e871
+
 https://hyperledger-fabric.readthedocs.io/en/release-1.4/identity/identity.html
 
 ![image](https://www.preveil.com/wp-content/uploads/2019/04/end-to-end-encryption.png)
