@@ -40,10 +40,16 @@ In order to connect Hyperledger Fabric and Invoke chaincode transaction. You wil
 
 On other hand; Hyperledger composer is different way of writing chaincode, which is guide of framework which can help you to accelerate your chaincode development. If you have developed business network using composer, then you can either use "composer rest server" or "composer-admin" and "composer-client" node module. You dont need to use any SDK in order to interact with Business network deployed on hyperledger fabric. Kindly refer following diagram for more clarity.
 
+
+https://hackernoon.com/hyperledger-composer-has-been-put-on-pause-what-are-your-options-now-dfc3a97a6308
 Convector
 https://docs.worldsibu.com/article/73-code-samples
 Healthcare Payments on Blockchain
 https://github.com/LamLauChiu/healthcare-payments-blockchain
+ex:
+https://blockchain-demo.instamed.com/paid
+
+
 
 https://www.goverticalworkshop.com/blockchain-2018-event/resources/how-to-create-a-decentralized-application-running-on-hyperledger-fabric-network
 
