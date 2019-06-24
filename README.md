@@ -45,6 +45,8 @@ https://docs.worldsibu.com/article/73-code-samples
 Healthcare Payments on Blockchain
 https://github.com/LamLauChiu/healthcare-payments-blockchain
 
+https://www.goverticalworkshop.com/blockchain-2018-event/resources/how-to-create-a-decentralized-application-running-on-hyperledger-fabric-network
+
 https://www.iterm2.com/
 
 https://zhuanlan.zhihu.com/HiBlock
