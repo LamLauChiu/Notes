@@ -1,11 +1,11 @@
 # Notes
 
 
-Hyperledger Explorer: (It works)
-https://medium.com/coinmonks/hyperledger-explorer-quick-start-50a49c6d7957
-ref:
-https://ittomato.github.io/2018/02/04/Hyperledger%20Fabri%E6%95%99%E7%A8%8B-%E5%AE%89%E8%A3%85blockchain%20explorer4/
-https://medium.com/@thanawitsupinnapong/setting-up-hyperledger-explorer-on-fabric-5f1f7cda73b3
+Hyperledger Explorer: (It works) <br/>
+https://medium.com/coinmonks/hyperledger-explorer-quick-start-50a49c6d7957 <br/>
+ref: <br/>
+https://ittomato.github.io/2018/02/04/Hyperledger%20Fabri%E6%95%99%E7%A8%8B-%E5%AE%89%E8%A3%85blockchain%20explorer4/ <br/>
+https://medium.com/@thanawitsupinnapong/setting-up-hyperledger-explorer-on-fabric-5f1f7cda73b3 <br/>
 
 
 
