@@ -8,7 +8,6 @@ https://ittomato.github.io/2018/02/04/Hyperledger%20Fabri%E6%95%99%E7%A8%8B-%E5%
 https://medium.com/@thanawitsupinnapong/setting-up-hyperledger-explorer-on-fabric-5f1f7cda73b3 <br/>
 
 
-
 https://www.jianshu.com/p/eac679b2e871
 
 https://hyperledger-fabric.readthedocs.io/en/release-1.4/identity/identity.html
@@ -25,6 +24,11 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.4/identity/identity.html
 https://www.twblogs.net/a/5bafd7712b7177781a0f621e
 
 ![image](https://i.stack.imgur.com/2llU5.jpg)
+
+Hyperledger Fabric
+https://zhuanlan.zhihu.com/p/35800948
+
+
 
 There are two ways to write chaincode in Hyperledger Fabric,
 
