@@ -1,6 +1,21 @@
+Concepts:
 
-![image](https://www.preveil.com/wp-content/uploads/2019/04/end-to-end-encryption.png)
+http://edisonxu.com/2017/03/23/hello-cqrs.html
+Domain Driven Design（DDD）
+
+Aggregate
+
+A DDD aggregate is a cluster of domain objects that can be treated as a single unit.
+—— Martin Fowler
+
+![image](http://edisonxu.com/images/2017/03/nG3Vc.png)
+
+Event Sourcing and CORS ( Command Query Responsibility Segregation ) 
 ![image](http://edisonxu.com/images/2017/03/cqrs.png)
+
+
+
+
 
 Spring Boot Microservices – Fastest Production Ready Microservices
 http://progressivecoder.com/spring-boot-microservices-fastest-production-ready-microservices/
