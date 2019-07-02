@@ -1,3 +1,75 @@
+https://medium.com/@so3da/transactions-and-failover-using-saga-pattern-in-microservices-architecture-baf5a13111c9
+Transactions and Failover using Saga Pattern in Microservices Architecture
+Problem
+Building distributed transaction across multiple services counted as very complex and tricky task as we have to consider many issues that may take place like dealing with service availability with transient states, eventual consistency between services, isolations, and rollbacks all these scenarios should be considered during the design phase carefully.
+
+Solution: The Saga Pattern
+A Saga is a sequence of transactions where each transaction interacts with its corresponding single service. The first transaction is initiated by an external request corresponding to the system operation, and then each subsequent step is triggered by the completion of the previous one and it contains the mechanism of handling rollback for the whole transaction sequence.
+
+Using our previous example, in a helicopter view, a Saga implementation would look like the following:
+![image](https://cdn-images-1.medium.com/max/1600/0*nG-NmhsfjVI3_ELX.png)
+
+There are a couple of different ways to implement a saga transaction, but the two most popular are:
+
+Command/Orchestration: There’s an orchestrator which responsible for centralizing the saga’s decision making and sequencing business logic.
+
+Events/Choreography: There’s no coordination or orchestrator, each service integrates and listens to the other service’s events and decides if an action should be taken or not.
+
+Command/Orchestration is my favorite one for these reasons:
+Avoid messy dependencies between services, as the Saga orchestrator is the one who invokes the saga participants.
+Reduce complexity as they only need to execute/reply commands.
+Easier to be implemented and tested.
+The transaction complexity remains linear when new steps are added.
+Rollbacks are easier to manage.
+
+Let’s dive more
+In the orchestration approach, we’ll create a new service which will take the responsibility of telling each participant what to do and when. The saga orchestrator communicates with each service in a command/reply style telling them what operation should be performed and will take the responsibility of firing rollbacks if needed.
+
+![image](https://cdn-images-1.medium.com/max/1600/0*kqSQuC_u41lhiAFp.png)
+1.Order Service saves a pending order and asks Order Saga Orchestrator to start a create order transaction.
+2.Orchestrator sends an execute payment command to Payment Service and wait for feedback on orchestrator queue channel.
+3.Orchestrator sends a confirm booking command to Booking Service, and wait for feedback on orchestrator queue channel.
+4.Orchestrator sends execute send a notification to Notification Service.
+5.Orchestrator executes confirm the order in Order Service.
+In the case above, Order Saga Orchestrator knows what is the flow needed to execute a “create order” transaction. If anything fails, it is also responsible for coordinating the rollback by sending commands to each participant to undo the previous operation.
+
+Notice: We should move the operations which can’t be rollback to the last order in the transaction flow like Notifications/SMS as we can not revert this action if it has been executed.
+
+Rolling Back in Saga’s Command/Orchestration
+Rollbacks are a lot easier now, the Orchestrator should fire execute compensation/rollback event once needed for the corresponding services.
+
+Example: If the booking has been failed by the supplier for any reason after we take money from the client for any reason, we should refund the money to the customer again.
+![image](https://cdn-images-1.medium.com/max/1600/0*YHreR8wMr2YQ1kaS.png)
+However, This approach still has some drawbacks, one of them is the risk of concentrating too much logic in the orchestrator and ending up with an architecture where the smart orchestrator tells dumb services what to do.
+
+https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b
+Saga: How to implement complex business transactions without two phase commit.
+
+Concept of two-phase commit(2PC):
+![iamge](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/2ee359fdeb0969a7be5e23141c5b0e9550ee6927/4-Figure1-1.png)
+
+SQL:
+https://medium.com/@totoroLiu/%E8%B3%87%E6%96%99%E5%BA%AB-acid-bb87324035a8
+ACID
+在資料庫的交易中，為確保交易(Transaction)是正確可靠的，所以必須具備四個特性，Atomicity (原子性）、Consistency (一致性）、Isolation (隔離性）、Durability (持續性）。在資料庫中，交易意旨由各種資料庫操作(select、update、insert等)所組成的邏輯過程。一般來說，我們會將Transaction寫在stored procedure中，以SQL server舉例，經常會看到 BEGIN TRANSACTION、COMMIT、 ROLLBACK等語法出現在stored procedure。
+
+Atomicity (原子性）- 在資料庫的每一筆交易中只有兩種可能發生，第一種是全部完全(commit)，第二種是全部不完成(rollback)，不會因為某個環節出錯，而終止在那個環節，在出錯之後會恢復至交易之前的狀態，如同還沒執行此筆交易。
+
+Consistency (一致性）- 在交易中會產生資料或者驗證狀態，然而當錯誤發生，所有已更改的資料或狀態將會恢復至交易之前。
+
+Isolation (隔離性）- 資料庫允許多筆交易同時進行，交易進行時未完成的交易資料並不會被其他交易使用，直到此筆交易完成。
+
+Durability (持續性）- 交易完成後對資料的修改是永久性的，資料不會因為系統重啟或錯誤而改變。
+
+Index
+Index Scan — 在查詢時，SQL server 會去尋找所有Index colume組成中是否符合查詢時的條件。執行消耗時間與Index總數成正比，與查詢結果的筆數無關。
+
+Index Seek — 當查詢條件包含Index中的欄位，SQL server 會使用b-tree演算法尋找到match的資料。執行消耗時間與查詢結果筆數成正比。
+
+Saga:
+The Saga has the responsibility to either get the overall business transaction completed or to leave the system in a known termination state. 
+So in case of errors a business rollback procedure is applied which occurs by calling compensation steps or activities in reverse order.
+
 https://www.nexocode.com/blog/posts/smooth-implementation-cqrs-es-with-sping-boot-and-axon/
 Smooth implementation of CQRS/ES with Spring Boot and Axon framework
 
