@@ -1,3 +1,9 @@
+https://www.nexocode.com/blog/posts/smooth-implementation-cqrs-es-with-sping-boot-and-axon/
+Smooth implementation of CQRS/ES with Spring Boot and Axon framework
+
+
+
+https://www.nexocode.com/blog/posts/cqrs-and-event-sourcing/
 CQRS and Event Sourcing as an antidote for problems with retrieving application states
 ![image](https://www.nexocode.com/blog/images/cqrs.jpg)
 
@@ -41,9 +47,6 @@ CQRS/ES can be a good alternative as a solution for specific problems. <br/>
 It can be introduced in some parts of the standard n-layer app and it can resolve non-standard problems where not only the current state is important, but also in places where we have to know how current state was built. <br/>
 Are CQRS and ES concepts that should exist together? <br/>
 In fact, no. Write DB can store only the current state. It wasn’t the case in our application and introducing CQRS only didn’t resolve our problem. We’ve implemented CQRS/ES using Axon framework for resolving some specific problems of one of the domain objects, especially gathering statistics.
-
-https://www.nexocode.com/blog/posts/cqrs-and-event-sourcing/
-
 
 https://www.cnblogs.com/yangecnu/p/Introduction-CQRS.html
 CRUD - Data-Driven
