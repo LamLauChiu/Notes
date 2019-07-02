@@ -1,3 +1,50 @@
+CQRS and Event Sourcing as an antidote for problems with retrieving application states
+![image](https://www.nexocode.com/blog/images/cqrs.jpg)
+
+Commands represent user intent. They contain all the necessary information about actions that user would like to perform.
+
+  Command Bus is a type of queue that receives commands and passes them to Command Handlers. <br/> <br/>
+  Command Handlers contain actual business logic which validates and processes data received in commands. Command handlers are   responsible for generation and propagation of domain events to Event Bus <br/> <br/>
+  Event Bus dispatches events to event handlers subscribed for specific event types. Event bus can propagate events both         asynchronously or synchronously if consecutive events are dependent. <br/> <br/>
+  Event Handlers are responsible for handling specific incoming events. Their role is to save the new state of the application   in read repository, and perform terminal actions like sending emails, storing files etc. <br/> <br/>
+
+Queries are objects, which represent the actual state of application available for a user. Getting data for UI should be done through these objects. 
+
+We can distinguish many advantages of CQRS approach including the following:
+
+We can split development tasks between people more experienced who will be working on the business logic and those ones who will be working on queries part. We have to be careful because this advantage may hurt knowledge transfer.<br/> <br/>
+We can achieve a great read/write performance by scaling commands and queries on multiple different servers.<br/> <br/>
+Using two different repositories (read/write) which are synchronized gives us automatic backup without any additional effort.
+Reads don’t hit write database, so they can go faster when using Event Sourcing.<br/> <br/>
+We can structure read data directly for the views, without thinking about domain logic, which simplifies views and can improve performance.
+
+
+Event Sourcing - case study
+At Nexocode we were trying to solve a problem of storing the previous states of the domain objects that influenced current state. Particularly, we were interested in generating statistics at any point of time. We wanted to check the state of our aggregate from the last month, last quarter or any other date from the past. The problem was not easy. We could keep additional data in the database for particular ranges of time, but there were also some drawbacks to this approach. We didn’t know how ranges should look like and what data would be necessary for future statistics. To avoid those problems, we could make snapshots all aggregates every day, but it produces a lot of redundant data.
+
+Event Sourcing seems to be the best solution for that problems. Event sourcing allows us to keep every change of aggregate state as events in a repository called Event Store. Publishing event by command handler should finish with saving event in write DB (event store) and initiating logic handled by event handlers. To create the current state of aggregate we need to run all events which create expected domain object and perform all changes to it. Below schema should explain that idea in a clear way:
+
+![image](https://www.nexocode.com/blog/images/event-sourcing.jpg)
+
+We are able to specify some advantages of ES:
+
+Time traveling. Possibility to recreate the state of specific aggregates in time. Every event contains a timestamp. It is not a problem to run events and stop them at a particular time based on these timestamps.<br/> <br/>
+Natural audit. We can check who made a change and what was that change without any additional effort. Unlike system logs that can show changes history, events can tell the intent behind each change.<br/> <br/>
+Ease of introducing corrects. When inconsistency appears in DB, we are able to reverse application state to a specific point in time, apply fixing event and further events.<br/> <br/>
+Better debugging. If something goes wrong, we can prepare test environment and rebuild the state of application step by step from scratch by applying all events. Thanks to that, we can find the issue faster and in consequence, we can save a lot of time.
+
+Aggregates
+I used word aggregate many times in this article, but what does it mean? It is a concept that comes from Domain-Driven-Design (DDD) and it refers to the entity or group of related entities which are always kept in a consistent state. We can think of it as a box which accepts and handle commands (contains command handlers) and then generates events based on the current state (applying events on event bus). In our particular case aggregate root is composed of one domain object, but it can be composed of multiple objects. We have also to be aware that the whole application can consist of multiple aggregates and all events are stored up in one repository.
+
+Conclusion
+CQRS/ES can be a good alternative as a solution for specific problems. <br/>
+It can be introduced in some parts of the standard n-layer app and it can resolve non-standard problems where not only the current state is important, but also in places where we have to know how current state was built. <br/>
+Are CQRS and ES concepts that should exist together? <br/>
+In fact, no. Write DB can store only the current state. It wasn’t the case in our application and introducing CQRS only didn’t resolve our problem. We’ve implemented CQRS/ES using Axon framework for resolving some specific problems of one of the domain objects, especially gathering statistics.
+
+https://www.nexocode.com/blog/posts/cqrs-and-event-sourcing/
+
+
 https://www.cnblogs.com/yangecnu/p/Introduction-CQRS.html
 CRUD - Data-Driven
 ![image](https://images0.cnblogs.com/blog/94031/201408/261851413457170.png)
