@@ -1,4 +1,4 @@
-
+https://www.cnblogs.com/yangecnu/p/Introduction-CQRS.html
 CRUD - Data-Driven
 ![image](https://images0.cnblogs.com/blog/94031/201408/261851413457170.png)
 
@@ -66,5 +66,6 @@ CQRS與Event Sourcing的關係
 
 ![image](https://www.codeproject.com/KB/architecture/555855/CQRS.jpg)
 上圖很清晰的說明了CQRS在讀寫方面的分離，在讀方面，通過QueryFacade到數據庫裡去讀取數據，這個庫有可能是ReportingDB。在寫方面，比較複雜，操作通過命令發送到CommandBus上，然後特定的CommandHandler處理請求，產生對應的事件，將Eevnt持久化後，通過EventBus特定的EevntHandler對數據庫進行修改等操作。
+
 ![image](https://images0.cnblogs.com/blog/94031/201408/261851449547571.png)
 
