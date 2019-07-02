@@ -1,3 +1,5 @@
+https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part/
+https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part-2/
 https://medium.com/@so3da/transactions-and-failover-using-saga-pattern-in-microservices-architecture-baf5a13111c9
 Transactions and Failover using Saga Pattern in Microservices Architecture
 Problem
