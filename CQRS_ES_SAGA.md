@@ -1,3 +1,8 @@
+https://medium.com/@so3da/transactions-and-failover-using-saga-pattern-in-microservices-architecture-baf5a13111c9
+https://stackoverflow.com/questions/30213456/transactions-across-rest-microservices
+https://zhuanlan.zhihu.com/p/37098711
+https://blog.sebastian-daschner.com/entries/event_sourcing_cqrs_video_course
+
 https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part/
 https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part-2/
 https://medium.com/@so3da/transactions-and-failover-using-saga-pattern-in-microservices-architecture-baf5a13111c9
