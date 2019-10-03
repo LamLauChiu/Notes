@@ -87,6 +87,6 @@ client side:
     
     
     
-    spring.zipkin.base-url: http://192.168.19.121:9000/
+    spring.zipkin.base-url: http://localhost:9000/
 spring.zipkin.sender.type: web
 spring.sleuth.sampler.percentage: 1.0
