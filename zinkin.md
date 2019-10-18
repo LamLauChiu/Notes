@@ -53,13 +53,13 @@ spring:
     name: zipkin-server
   zipkin:
     sender.type: web 
-    base-url: http://192.168.19.121:9000/
+    base-url: http://:9000/
   sleuth:
     sampler.percentage: 1.0
 
 
 #spring.zipkin.sender.type: web 
-#spring.zipkin.base-url: http://192.168.19.121:9000/
+#spring.zipkin.base-url: http://:9000/
 #spring.sleuth.sampler.percentage: 1.0
  
  
