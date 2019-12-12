@@ -20,7 +20,7 @@ A class extends another class, an interface extends another interface, but a cla
 DesignPattern
 https://openhome.cc/Gossip/DesignPattern/
 
-public void multiThreadsHandler(Request request) throws ExecutionException, InterruptedException {
+	public void multiThreadsHandler(Request request) throws ExecutionException, InterruptedException {
 
 	      CompletableFuture<String> ServiceOenResult = processRemoteServiceOne(request);
 	      CompletableFuture<String> ServiceTwoResult = processRemoteServiceTwo(request);
@@ -49,3 +49,8 @@ public void multiThreadsHandler(Request request) throws ExecutionException, Inte
 		log.info("processRemoteServiceOne - END");
 		return result;
 	}
+	
+Java CompletableFuture:	
+https://blog.csdn.net/zhangphil/article/details/80670593
+https://blog.csdn.net/jianjun200607/article/details/84027273
+https://blog.csdn.net/u011726984/article/details/79320004
