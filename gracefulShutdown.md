@@ -1,3 +1,5 @@
+
+https://dzone.com/articles/graceful-shutdown-spring-boot-applications
 https://www.baeldung.com/java-executor-service-tutorial
 
 https://www.journaldev.com/1069/threadpoolexecutor-java-thread-pool-example-executorservice
