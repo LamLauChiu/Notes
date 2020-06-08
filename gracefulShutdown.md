@@ -1,4 +1,10 @@
-
+ 
+ Different between Docker stop and Docker kill:
+ 
+ 
+ 
+ 
+ 
 https://dzone.com/articles/graceful-shutdown-spring-boot-applications
 https://www.baeldung.com/java-executor-service-tutorial
 
