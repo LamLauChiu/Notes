@@ -36,3 +36,22 @@ https://data-flair.training/blogs/django-crud-example/
 REST framework JWT Auth
 https://jpadilla.github.io/django-rest-framework-jwt/
 
+Q & A:
+https://stackoverflow.com/questions/9081123/is-django-for-the-frontend-or-backend
+
+Neither.
+
+Django is a framework, not a language. Python is the language in which Django is written.
+
+Django is a collection of Python libs allowing you to quickly and efficiently create a quality Web application, and is suitable for both frontend and backend.
+
+However, Django is pretty famous for its "Django admin", an auto generated backend that allows you to manage your website in a blink for a lot of simple use cases without having to code much.
+
+More precisely, for the front end, Django helps you with data selection, formatting, and display. It features URL management, a templating language, authentication mechanisms, cache hooks, and various navigation tools such as paginators.
+
+For the backend, Django comes with an ORM that lets you manipulate your data source with ease, forms (an HTML independent implementation) to process user input and validate data and signals, and an implementation of the observer pattern. Plus a tons of use-case specific nifty little tools.
+
+For the rest of the backend work Django doesn't help with, you just use regular Python. Business logic is a pretty broad term.
+
+You probably want to know as well that Django comes with the concept of apps, a self contained pluggable Django library that solves a problem. The Django community is huge, and so there are numerous apps that do specific business logic that vanilla Django doesn't.
+
