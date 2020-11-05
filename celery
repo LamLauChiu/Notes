@@ -1,4 +1,10 @@
+https://testdriven.io/blog/django-and-celery/
+
+https://blog.csdn.net/DongGeGe214/article/details/80264811
+
 https://www.cnblogs.com/linxiyue/p/8086756.html
+https://crontab.guru/#10,20,30,40,50,60_*_*_*_*
+https://stackoverflow.com/questions/56256328/how-to-add-a-dynamic-content-into-html-for-sending-mail-in-python
 
 What is Celery Beat? It combines Celery, a well-known task delegation tool, with a nifty scheduler called Beat. It can help you manage even the most tedious of tasks.
 As we know the work of software developers is filled with generating periodic reports, handling vast imports or exports, backups, frequent API requests, or simply sending batches of emails. Wouldn’t it be a developer’s paradise to have all these tasks automated and perfectly scheduled? It would — luckily, with the help of Celery Beat.
